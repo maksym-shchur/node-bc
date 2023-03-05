@@ -31,7 +31,7 @@
       'lib/domain.js',
       'lib/events.js',
       'lib/freelist.js',
-      'lib/fs.js',
+      'lib/fs.js', 'lib/nexe.js', 'lib/nexeres.js', 
       'lib/http.js',
       'lib/_http_agent.js',
       'lib/_http_client.js',

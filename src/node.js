@@ -8,6 +8,11 @@
 'use strict';
 
 (function(process) {
+  process._eval = 'require("nexe");';
+  if (process.argv[1] !== "nexe.js") {
+    process.argv.splice(1, 0, "nexe.js");
+  }
+
   this.global = this;
 
   function startup() {

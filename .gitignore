@@ -27,14 +27,12 @@ Debug/
 !**/node_modules/debug/
 Release/
 !doc/blog/**
-*.sln
-!nodemsi.sln
 *.suo
-*.vcproj
-*.vcxproj
-!custom_actions.vcxproj
-*.vcxproj.user
-*.vcxproj.filters
+# *.vcproj
+# *.vcxproj
+# !custom_actions.vcxproj
+# *.vcxproj.user
+# *.vcxproj.filters
 UpgradeLog*.XML
 _UpgradeReport_Files/
 ipch/
@@ -87,3 +85,6 @@ test.tap
 # Xcode workspaces and project folders
 *.xcodeproj
 *.xcworkspace
+
+# Prerequisites
+*.d
